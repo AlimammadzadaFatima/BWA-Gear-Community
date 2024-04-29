@@ -1,0 +1,136 @@
+@media (max-width:992px) {
+    .menu ul li {
+      padding: 0 20px;
+    }
+    .menu ul li a{
+        font-size: 14px;
+    }
+    .header-img, .header-text{
+        width: 50%;
+        text-align: center;
+    }
+    .popular-page{
+        width: 80%;
+    }
+    .popular-page h2{
+        font-size: 30px;
+    }
+    .popular-page p{
+        padding: 10px 0;
+    }
+    .users{
+        justify-content: center;
+    }
+    .comer-card{
+        margin: 20px auto;
+    }
+    .comer-img{
+        width: 35%;
+    }
+   
+    .netflix, .pop-card{
+        width: 45%;
+        margin:20px auto;
+    }
+    .comment{
+        width: 48%;
+        margin: 20px auto;
+    }
+    #sec-6 .mail {
+        width: 80%;
+    }
+    #sec-6 .mail input {
+        width: 100%;
+        margin: 20px 0;
+    }
+    #sec-6 .mail .btn{
+        margin: auto;
+    }
+    header .bg-img img{
+        height: 80vh;
+    }
+    #sec-2 .users-info .us-info{
+        width: 45%;
+        margin: auto;
+        padding: 20px 0;
+    }
+}
+@media (max-width:768px) {
+   
+    .header-img, .header-text{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    #sec-1 .tools, #sec-2 .users-info{
+        display: block;
+        text-align: center;
+    }
+    .tools .card {
+        width: 80%;
+       margin: auto;
+    }
+    #sec-2 .users-info .us-info{
+        width: 80%;
+        margin: auto;
+        padding: 20px 0;
+    }
+    .popular-page h2{
+        font-size: 25px;
+    }
+    .popular-page p{
+        padding: 10px 0;
+    }
+ 
+    .comer-img{
+        width: 27%;
+    }
+    .header-row, .social-row, .comment-rpw, .comer-row, .popular-cards, #sec-6 .mail{
+        display: block;
+    }
+    .netflix, .comment, .pop-card, .comer-card{
+        width: 90%;
+        margin: 50px auto;
+    }
+    #sec-6 .mail input {
+        width: 100%;
+        margin: 20px 0;
+    }
+   
+    .foot-row .list{
+        width: 48%;
+        margin: 10px auto;
+    }
+    
+}
+
+@media (max-width:576px) {
+.menu, .nav-row .btn{
+    display: none;
+}
+#comer-header{
+    padding-bottom:60px;
+}
+.burger-menu, .header-row{
+    display: block;
+}
+
+.header-img, .header-text{
+    width: 100%;
+    text-align: center;
+}
+.foot-row{
+        display: block;
+}
+.foot-row .list{
+    width: 90%;
+}
+.copy-row {
+    text-align: start;
+    padding-left: 40px;
+}
+#about-header .popular-page{
+    width: 97%;
+    }
+}
+
